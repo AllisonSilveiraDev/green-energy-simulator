@@ -1,0 +1,39 @@
+.simulator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 100px auto;
+    gap: 10px;
+
+    form {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+
+        button {
+            margin-bottom: 20px;
+        }
+    }
+
+    .form-input {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        ::ng-deep .mat-mdc-text-field-wrapper {
+            background-color: rgb(255, 255, 255);
+        }
+    }
+
+    .summary {
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+}
